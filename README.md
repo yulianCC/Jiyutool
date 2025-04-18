@@ -5,7 +5,7 @@ JiyuTool 是一款用于通过特定协议与远程系统通信的工具，支�
 ## 功能特性
 
 - 远程执行命令
-- 修改教师 ID
+- 修改学生端 ID
 - 重置密码
 - 关机与重启控制
 - 发送消息
@@ -39,7 +39,7 @@ python script.py --ip 192.168.1.10 exec --cmd "whoami"
 # 发消息
 python script.py --ip 192.168.1.10 message --msg "请保存好你的文件，系统将重启"
 
-# 修改教师ID
+# 修改学生ID
 python script.py --ip 192.168.1.10 id --tid 12
 
 # 重置密码
